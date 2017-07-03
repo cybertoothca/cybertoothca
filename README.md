@@ -20,7 +20,7 @@
 {% endraw %}
 {% endhighlight %}
 
-## ember-cli-bootstrap3-grid
+## [ember-cli-bootstrap3-grid](https://github.com/cybertoothca/ember-cli-bootstrap3-grid)
 
 ### `twbs-clearfix` ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-grid/blob/master/README.md#twbs-clearfix))
 
