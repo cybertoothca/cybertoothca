@@ -2,7 +2,7 @@
 
 ## [ember-cli-bootstrap3-carousel](http://ember-cli-bootstrap3-carousel.cybertooth.io)
 
-### `twbs-carousel` ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-carousel#components))
+### `twbs-carousel` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-carousel#components))
 
 ```hbs
 {% raw %}
@@ -23,7 +23,7 @@
 
 ## [ember-cli-bootstrap3-forms](http://ember-data-bootstrap3-forms.cybertooth.io/)
 
-### `twbs-errors-alert` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
+### `twbs-errors-alert` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
 
 ```hbs
 {% raw %}
@@ -31,7 +31,7 @@
 {% endraw %}
 ```
 
-### `twbs-form-group` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form-group))
+### `twbs-form-group` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form-group))
 
 ```hbs
 {% raw %}
@@ -45,7 +45,7 @@
 
 ## [ember-cli-bootstrap3-grid](https://github.com/cybertoothca/ember-cli-bootstrap3-grid)
 
-### `twbs-clearfix` ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-grid/blob/master/README.md#twbs-clearfix))
+### `twbs-clearfix` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-grid/blob/master/README.md#twbs-clearfix))
 
 ```hbs
 {% raw %}
@@ -76,7 +76,7 @@ export default Ember.Component.extend(Viewport, { ... });
 
 ## [ember-cli-bootstrap3-popover](http://ember-cli-bootstrap3-popover.cybertooth.io)
 
-### `twbs-popover` ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-popover#twbs-popover))
+### `twbs-popover` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-popover#twbs-popover))
 
 ```hbs
 {% raw %}
@@ -90,7 +90,7 @@ export default Ember.Component.extend(Viewport, { ... });
 
 ## [ember-cli-date-textbox](http://ember-cli-date-textbox.cybertooth.io)
 
-### `input-date` ([docs](https://github.com/cybertoothca/ember-cli-date-textbox#input-date))
+### `input-date` Component ([docs](https://github.com/cybertoothca/ember-cli-date-textbox#input-date))
 
 ```hbs
 {% raw %}
@@ -98,7 +98,7 @@ export default Ember.Component.extend(Viewport, { ... });
 {% endraw %}
 ```
 
-### `input-iso8601` ([docs](https://github.com/cybertoothca/ember-cli-date-textbox#input-iso8601))
+### `input-iso8601` Component ([docs](https://github.com/cybertoothca/ember-cli-date-textbox#input-iso8601))
 
 ```hbs
 {% raw %}
@@ -108,7 +108,7 @@ export default Ember.Component.extend(Viewport, { ... });
 
 ## [ember-cli-marked-down](https://github.com/cybertoothca/ember-cli-marked-down)
 
-### `marked-down` ([docs](https://github.com/cybertoothca/ember-cli-marked-down#marked-down-some-__markdown__-text))
+### `marked-down` Helper ([docs](https://github.com/cybertoothca/ember-cli-marked-down#marked-down-some-__markdown__-text))
 
 ```hbs
 {% raw %}
@@ -116,7 +116,7 @@ export default Ember.Component.extend(Viewport, { ... });
 {% endraw %}
 ```
 
-### `set-links-target` ([docs](https://github.com/cybertoothca/ember-cli-marked-down#set-links-target))
+### `set-links-target` Component ([docs](https://github.com/cybertoothca/ember-cli-marked-down#set-links-target))
 
 ```hbs
 {% raw %}
@@ -128,7 +128,7 @@ export default Ember.Component.extend(Viewport, { ... });
 
 ## [ember-cli-text-support-mixins](http://ember-cli-text-support-mixins.cybertooth.io)
 
-### `input-text` ([docs](https://github.com/cybertoothca/ember-cli-text-support-mixins#input-text))
+### `input-text` Component ([docs](https://github.com/cybertoothca/ember-cli-text-support-mixins#input-text))
 
 ```hbs
 {% raw %}
@@ -136,7 +136,7 @@ export default Ember.Component.extend(Viewport, { ... });
 {% endraw %}
 ```
 
-### `text-area` ([docs](https://github.com/cybertoothca/ember-cli-text-support-mixins#text-area))
+### `text-area` Component ([docs](https://github.com/cybertoothca/ember-cli-text-support-mixins#text-area))
 
 ```hbs
 {% raw %}
@@ -146,7 +146,7 @@ export default Ember.Component.extend(Viewport, { ... });
 
 ## [ember-cli-textarea-autosize](http://ember-cli-textarea-autosize.cybertooth.io)
 
-### `textarea-autosize` ([docs](https://github.com/cybertoothca/ember-cli-textarea-autosize#usage))
+### `textarea-autosize` Component ([docs](https://github.com/cybertoothca/ember-cli-textarea-autosize#usage))
 
 ```hbs
 {% raw %}
