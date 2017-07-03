@@ -4,7 +4,11 @@
 
 ### `twbs-errors-alert` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
 
-    {% raw %}{{{% endraw %}twbs-errors-alert class="alert-danger" model=model{% raw %}}}{% endraw %}
+{% highlight html%}
+{% raw %}
+    {{twbs-errors-alert class="alert-danger" model=model}}
+{% endraw %}
+{% endhighlight %}
 
 ### `twbs-form-group` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form-group))
 
