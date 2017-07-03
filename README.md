@@ -89,10 +89,8 @@ export default Ember.Component.extend(Viewport, { ... });
 
 ### `marked-down` ([docs](https://github.com/cybertoothca/ember-cli-marked-down#marked-down-some-__markdown__-text))
 
-```hbs
-{% raw %}
-{{marked-down "Some ~~struck~~ markdown text" strikethrough=true}}
-{% endraw %}
+```hbs {% raw %}
+{{marked-down "Some ~~struck~~ markdown text" strikethrough=true}}{% endraw %}
 ```
 
 ## [ember-cli-text-support-mixins](http://ember-cli-text-support-mixins.cybertooth.io)
