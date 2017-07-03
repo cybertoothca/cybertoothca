@@ -8,15 +8,23 @@
 
 ### `twbs-form-group` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form-group))
 
-{% raw %}`{{twbs-form-group fieldErrors=model.errors.firstName}}`{% endraw %}
+{% raw %}
+    {{#twbs-form-group fieldErrors=model.errors.firstName}}
+        ...
+    {{/twbs-form-group}}
+{% endraw %}
 
 ## ember-cli-bootstrap3-grid
 
 ### `twbs-clearfix` ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-grid/blob/master/README.md#twbs-clearfix))
 
-{% raw %}`{{twbs-clearfix columnCount=3 index=index visible-sm=true visible-md=true visible-lg=true}}`{% endraw %}
+{% raw %}
+    {{twbs-clearfix columnCount=3 index=index visible-sm=true visible-md=true visible-lg=true}}
+{% endraw %}
 
-{% raw %}`{{twbs-clearfix columnCount=3 index=index visible-all=true}}`{% endraw %}
+{% raw %}
+    {{twbs-clearfix columnCount=3 index=index visible-all=true}}
+{% endraw %}
 
 ### `Viewport` Mixin ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-grid/blob/master/README.md#viewport))
 
