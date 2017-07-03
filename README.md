@@ -12,11 +12,11 @@
 
 ### `twbs-form-group` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form-group))
 
-{% raw %}
-    {{#twbs-form-group fieldErrors=model.errors.firstName}}
-        ...
-    {{/twbs-form-group}}
-{% endraw %}
+```
+{{#twbs-form-group fieldErrors=model.errors.firstName}}
+  ...
+{{/twbs-form-group}}
+```
 
 ## ember-cli-bootstrap3-grid
 
