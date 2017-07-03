@@ -55,6 +55,8 @@ export default Ember.Component.extend(Viewport, { ... });
 
 ## [ember-cli-bootstrap3-popover](http://ember-cli-bootstrap3-popover.cybertooth.io)
 
+### `twbs-popover` ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-popover#twbs-popover))
+
 {% highlight none%}
 {% raw %}
 {{#twbs-popover content="Click again to hide." as |popover|}}
@@ -67,7 +69,31 @@ export default Ember.Component.extend(Viewport, { ... });
 
 ## [ember-cli-date-textbox](http://ember-cli-date-textbox.cybertooth.io)
 
+### `input-date` ([docs](https://github.com/cybertoothca/ember-cli-date-textbox#input-date))
+
+{% highlight none%}
+{% raw %}
+{{input-date autofocus=true classNames="form-control" date=model.createdAt displayFormat="LLLL"}}
+{% endraw %}
+{% endhighlight %}
+
+### `input-iso8601` ([docs](https://github.com/cybertoothca/ember-cli-date-textbox#input-iso8601))
+
+{% highlight none%}
+{% raw %}
+{{input-iso8601 classNames="form-control" displayFormat="llll" iso8601="2017-07-01T00:00:00.000Z"}}
+{% endraw %}
+{% endhighlight %}
+
 ## [ember-cli-bootstrap3-marked-down](http://ember-cli-bootstrap3-marked-down.cybertooth.io)
+
+### `marked-down` ([docs](https://github.com/cybertoothca/ember-cli-marked-down#marked-down-some-__markdown__-text))
+
+```ruby
+{% raw %}
+{{marked-down "Some ~~struck~~ markdown text" strikethrough=true}}
+{% endraw %}
+```
 
 ## [ember-cli-text-support-mixins](http://ember-cli-text-support-mixins.cybertooth.io)
 
