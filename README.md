@@ -3,11 +3,13 @@
 ## ember-cli-bootstrap3-forms
 
 {% raw %}
-    {{ twbs-errors-alert class="alert-danger" model=model }}
+    {{twbs-errors-alert class="alert-danger" model=model}}
 {% endraw %}
 
 ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
 
+        some
+        code
 
 ### [ember-cli-bootstrap3-carousel](http://ember-cli-bootstrap3-carousel.cybertooth.io)
 
