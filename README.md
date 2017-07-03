@@ -1,14 +1,13 @@
+{% highlight none%}
 # Ember Addons Cheat Sheet
 
 ## [ember-cli-bootstrap3-forms](http://ember-data-bootstrap3-forms.cybertooth.io/)
 
 ### `twbs-errors-alert` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
 
-{% highlight none%}
 {% raw %}
     {{twbs-errors-alert class="alert-danger" model=model}}
 {% endraw %}
-{% endhighlight %}
 
 ### `twbs-form-group` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form-group))
 
@@ -57,3 +56,6 @@
 ### [ember-cli-textarea-autosize](http://ember-cli-textarea-autosize.cybertooth.io)
 
 ### [ember-data-bootstrap3-forms](http://ember-data-bootstrap3-forms.cybertooth.io)
+
+{% endhighlight %}
+
