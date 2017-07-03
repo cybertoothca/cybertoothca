@@ -4,7 +4,7 @@
 
 ### `twbs-errors-alert` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
 
-{% highlight html%}
+{% highlight none%}
 {% raw %}
     {{twbs-errors-alert class="alert-danger" model=model}}
 {% endraw %}
@@ -25,6 +25,7 @@
 {% raw %}
     {{twbs-clearfix columnCount=3 index=index visible-sm=true visible-md=true visible-lg=true}}
 {% endraw %}
+
 
 {% raw %}
     {{twbs-clearfix columnCount=3 index=index visible-all=true}}
