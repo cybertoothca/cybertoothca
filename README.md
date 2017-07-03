@@ -1,4 +1,4 @@
-# Ember Addons Cheat Sheet
+# Cybertooth Ember Addons Cheat Sheet
 
 ## [ember-cli-bootstrap3-forms](http://ember-data-bootstrap3-forms.cybertooth.io/)
 
