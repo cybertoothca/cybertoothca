@@ -2,7 +2,7 @@
 
 ## ember-cli-bootstrap3-forms
 
-    {{twbs-errors-alert class="alert-danger" model=model}}
+    {{ twbs-errors-alert class="alert-danger" model=model }}
 
 ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
 
