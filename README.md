@@ -1,10 +1,9 @@
 # Ember Addons Cheat Sheet
 
-## ember-cli-bootstrap3-formsasa
+## ember-cli-bootstrap3-forms
 
-`{{twbs-errors-alert class="alert-danger" model=model}}` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
+`\{\{twbs-errors-alert class="alert-danger" model=model}}` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
 
-A collection of EmberJS addons.
 
 ### [ember-cli-bootstrap3-carousel](http://ember-cli-bootstrap3-carousel.cybertooth.io)
 
