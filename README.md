@@ -15,7 +15,9 @@
 {% highlight none%}
 {% raw %}
 {{#twbs-form-group fieldErrors=model.errors.firstName}}
-  ...
+  <label for="...">...</label>
+  {{input class="form-control" type="..." value=model.firstName}}
+  <p class="help-block">...</p>
 {{/twbs-form-group}}
 {% endraw %}
 {% endhighlight %}
