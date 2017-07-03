@@ -6,9 +6,7 @@
 
 {% highlight none%}
 {% raw %}
-```
 {{twbs-errors-alert class="alert-danger" model=model}}
-```
 {% endraw %}
 {% endhighlight %}
 
