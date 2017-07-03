@@ -14,11 +14,9 @@
 
 {% highlight none%}
 {% raw %}
-```
 {{#twbs-form-group fieldErrors=model.errors.firstName}}
   ...
 {{/twbs-form-group}}
-```
 {% endraw %}
 {% endhighlight %}
 
@@ -28,17 +26,13 @@
 
 {% highlight none%}
 {% raw %}
-```
 {{twbs-clearfix columnCount=3 index=index visible-sm=true visible-md=true visible-lg=true}}
-```
 {% endraw %}
 {% endhighlight %}
 
 {% highlight none%}
 {% raw %}
-```
 {{twbs-clearfix columnCount=3 index=index visible-all=true}}
-```
 {% endraw %}
 {% endhighlight %}
 
@@ -46,14 +40,12 @@
 
 {% highlight none%}
 {% raw %}
-```
 import Viewport from 'ember-cli-bootstrap3-grid/mixins/viewport';
 // ... then mix it into your component
 export default Ember.Component.extend(Viewport, { ... });
 
 // ... then in your component's hbs, use the helpers
 {{#if xs?}} Extra Small {{else}} SM/MD/LG {{/if}}
-```
 {% endraw %}
 {% endhighlight %}
 
