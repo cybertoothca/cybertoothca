@@ -1,5 +1,26 @@
 # Cybertooth Ember Addons Cheat Sheet
 
+## [ember-cli-bootstrap3-carousel](http://ember-cli-bootstrap3-carousel.cybertooth.io)
+
+### `twbs-carousel` ([docs]())
+
+```hbs
+{% raw %}
+{{#twbs-carousel as |carousel|}}
+  {{#carousel.slide classNames="active" as |slide|}}
+    {{slide.img src="https://dummyimage.com/1600x900/f7d3a0/333.jpg&text=Slide+1" alt="A slide image."}}
+  {{/carousel.slide}}
+  {{#carousel.slide as |slide|}}
+    {{slide.img lazy="https://dummyimage.com/1600x900/f7d3a0/333.jpg&text=Slide+2" alt="A slide image."}}
+  {{/carousel.slide}}
+  ...
+  {{#carousel.slide as |slide|}}
+    {{slide.img lazy="https://dummyimage.com/1600x900/f7d3a0/333.jpg&text=Slide+5" alt="A slide image."}}
+  {{/carousel.slide}}
+{{/twbs-carousel}}
+{% endraw %}
+```
+
 ## [ember-cli-bootstrap3-forms](http://ember-data-bootstrap3-forms.cybertooth.io/)
 
 ### `twbs-errors-alert` ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
@@ -16,7 +37,7 @@
 {% raw %}
 {{#twbs-form-group fieldErrors=model.errors.firstName}}
   <label for="...">...</label>
-  {{input class="form-control" type="..." value=model.firstName}}
+  {{input class="form-control" id="..." type="..." value=model.firstName}}
   <p class="help-block">...</p>
 {{/twbs-form-group}}
 {% endraw %}
@@ -53,8 +74,6 @@ export default Ember.Component.extend(Viewport, { ... });
 {% endraw %}
 ```
 
-## [ember-cli-bootstrap3-carousel](http://ember-cli-bootstrap3-carousel.cybertooth.io)
-
 ## [ember-cli-bootstrap3-popover](http://ember-cli-bootstrap3-popover.cybertooth.io)
 
 ### `twbs-popover` ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-popover#twbs-popover))
@@ -87,7 +106,7 @@ export default Ember.Component.extend(Viewport, { ... });
 {% endraw %}
 ```
 
-## [ember-cli-bootstrap3-marked-down](http://ember-cli-bootstrap3-marked-down.cybertooth.io)
+## [ember-cli-marked-down](https://github.com/cybertoothca/ember-cli-marked-down)
 
 ### `marked-down` ([docs](https://github.com/cybertoothca/ember-cli-marked-down#marked-down-some-__markdown__-text))
 
@@ -97,8 +116,40 @@ export default Ember.Component.extend(Viewport, { ... });
 {% endraw %}
 ```
 
+### `set-links-target` ([docs](https://github.com/cybertoothca/ember-cli-marked-down#set-links-target))
+
+```hbs
+{% raw %}
+{{#set-links-target excludeSelfLinks?=true targetValue="_blank"}}
+  ...
+{{/set-links-target}}
+{% endraw %}
+```
+
 ## [ember-cli-text-support-mixins](http://ember-cli-text-support-mixins.cybertooth.io)
+
+### `input-text` ([docs](https://github.com/cybertoothca/ember-cli-text-support-mixins#input-text))
+
+```hbs
+{% raw %}
+{{input-text autofocus=true class="form-control" escapeKeyClears?=true focusSelectsText?=true value=model.firstName}}
+{% endraw %}
+```
+
+### `text-area` ([docs](https://github.com/cybertoothca/ember-cli-text-support-mixins#text-area))
+
+```hbs
+{% raw %}
+{{text-area class="form-control" escapeKeyClears?=true focusSelectsText?=true ctrlEnterSubmitsForm?=true value=model.notes}}
+{% endraw %}
+```
 
 ## [ember-cli-textarea-autosize](http://ember-cli-textarea-autosize.cybertooth.io)
 
-## [ember-data-bootstrap3-forms](http://ember-data-bootstrap3-forms.cybertooth.io)
+### `textarea-autosize` ([docs](https://github.com/cybertoothca/ember-cli-textarea-autosize#usage))
+
+```hbs
+{% raw %}
+{{textarea-autosize classNames="form-control" rows=4}}
+{% endraw %}
+```
