@@ -2,7 +2,7 @@
 
 ## [ember-cli-bootstrap3-carousel](http://ember-cli-bootstrap3-carousel.cybertooth.io)
 
-### `twbs-carousel` Component ([:octocat: docs](https://github.com/cybertoothca/ember-cli-bootstrap3-carousel#components))
+### `twbs-carousel` Component ([ :octocat: docs](https://github.com/cybertoothca/ember-cli-bootstrap3-carousel#components))
 
 ```hbs
 {% raw %}
