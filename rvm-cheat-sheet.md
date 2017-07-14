@@ -4,7 +4,7 @@ This document describes how to use the Ruby Version Manager, rvm to manage your 
 and Linux. We use tools like rvm and nvm to avoid using sudo to install the various gems and libraries. 
 Do not use sudo.
 
-## Install rvm
+## Install `rvm`
 
 ```
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
@@ -13,7 +13,7 @@ $ curl -sSL https://get.rvm.io | bash -s stable --ruby
 
 See https://rvm.io/rvm/install.
 
-## Some rvm Tips And Tricks
+## Tips And Tricks
 
 ```
 $ rvm list known					# lists all of the known ruby packages
@@ -26,7 +26,7 @@ $ rvm use 2.1 --default				# set the specified version to be the default version
 
 See https://rvm.io/rvm/install#try-out-your-new-rvm-installation.
 
-## Keeping rvm Up-to-Date
+## Keeping `rvm` Up-to-Date
 
 You should upgrade rvm regularly seeing as you probably don't use the tool that often.
 
@@ -36,7 +36,7 @@ $ rvm get stable
 
 See https://rvm.io/rvm/upgrading
 
-## Upgrading Ruby With rvm
+## Upgrading Ruby With `rvm`
 
 ```
 $ rvm upgrade 2.1.1 2.1.2			# upgrades ruby 2.1.1 to 2.1.2, migrate gemsets, wrappers, aliases and environment files
