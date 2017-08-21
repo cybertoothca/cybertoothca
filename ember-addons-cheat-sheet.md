@@ -31,6 +31,24 @@
 {% endraw %}
 ```
 
+### `twbs-form` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form))
+
+```hbs
+{% raw %}
+{{#twbs-form submit=(route-action "saveModel" model) reset=(route-action "rollbackModel" model)}}
+  {{!-- your form-groups and inputs go here --}}
+  <div class="form-group text-right">
+    <button class="btn btn-primary" type="submit">
+      Clicking This SUBMIT Button Triggers Form's Submit Action
+    </button>
+    <button class="btn btn-default" type="reset">
+      Clicking This RESET Button Triggers Form's Reset Action
+    </button>
+  </div>
+{{/twbs-form}}
+{% endraw %}
+```
+
 ### `twbs-form-group` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form-group))
 
 ```hbs
@@ -71,6 +89,35 @@ export default Ember.Component.extend(Viewport, { ... });
 {% raw %}
 {{!-- then in your template use the computed functions --}}
 {{#if xs?}} Extra Small {{else}} SM/MD/LG {{/if}}
+{% endraw %}
+```
+
+##[ember-cli-bootstrap3-tooltip
+
+### `twbs-abbr` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-abbr-titlesome-tooltip-value))
+
+```hbs
+{% raw %}
+{{#twbs-abbr title="Best Friends, Forever"}}BFF{{/twbs-abbr}}
+{% endraw %}
+```
+
+### `twbs-cite` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-cite-titlesome-tooltip-value))
+
+```hbs
+{% raw %}
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer>Someone famous in {{#twbs-cite title="Source Title"}}Source Title{{/twbs-cite}}</footer>
+</blockquote>
+{% endraw %}
+```
+
+### `twbs-span` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-span-titlesome-tooltip-value))
+
+```hbs
+{% raw %}
+{{#twbs-span title="Some sort of tooltip in a span"}}Hover Over This{{/twbs-span}}
 {% endraw %}
 ```
 
