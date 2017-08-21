@@ -35,7 +35,10 @@
 
 ```hbs
 {% raw %}
-{{#twbs-form submit=(route-action "saveModel" model) reset=(route-action "rollbackModel" model)}}
+{{#twbs-form
+    submit=(route-action "saveModel" model)
+    reset=(route-action "rollbackModel" model)
+}}
   {{!-- your form-groups and inputs go here --}}
   <div class="form-group text-right">
     <button class="btn btn-primary" type="submit">
