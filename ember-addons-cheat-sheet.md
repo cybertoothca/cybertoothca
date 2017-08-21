@@ -95,7 +95,21 @@ export default Ember.Component.extend(Viewport, { ... });
 {% endraw %}
 ```
 
-##[ember-cli-bootstrap3-tooltip
+## [ember-cli-bootstrap3-popover](http://ember-cli-bootstrap3-popover.cybertooth.io)
+
+### `twbs-popover` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-popover#twbs-popover))
+
+```hbs
+{% raw %}
+{{#twbs-popover content="Click again to hide." as |popover|}}
+  {{#popover.trigger}}
+    <a href="javascript:void(0)">Click this anchor.</a>
+  {{/popover.trigger}}
+{{/twbs-popover}}
+{% endraw %}
+```
+
+## ember-cli-bootstrap3-tooltip
 
 ### `twbs-abbr` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-abbr-titlesome-tooltip-value))
 
@@ -121,20 +135,6 @@ export default Ember.Component.extend(Viewport, { ... });
 ```hbs
 {% raw %}
 {{#twbs-span title="Some sort of tooltip in a span"}}Hover Over This{{/twbs-span}}
-{% endraw %}
-```
-
-## [ember-cli-bootstrap3-popover](http://ember-cli-bootstrap3-popover.cybertooth.io)
-
-### `twbs-popover` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-popover#twbs-popover))
-
-```hbs
-{% raw %}
-{{#twbs-popover content="Click again to hide." as |popover|}}
-  {{#popover.trigger}}
-    <a href="javascript:void(0)">Click this anchor.</a>
-  {{/popover.trigger}}
-{{/twbs-popover}}
 {% endraw %}
 ```
 
