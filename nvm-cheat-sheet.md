@@ -1,6 +1,6 @@
 # NVM Cheat Sheet
 
-Instructions for installing the Node Version Manager on Mac or Ubuntu. The nvm tool can be 
+Instructions for installing the Node Version Manager on Mac or Ubuntu. The nvm tool can be
 used to choose a specific version of NodeJs/npm.
 
 ## Install `nvm`
@@ -22,3 +22,5 @@ $ nvm current                   # what is the current installed nvm version
 $ nvm alias default 0.10.32     # set the default node to the installed 0.10.32 version
 $ nvm --help                    # the help documents
 ```
+
+# [< Home](README)

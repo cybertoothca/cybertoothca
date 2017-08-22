@@ -1,7 +1,7 @@
 
 # RVM Cheat Sheet
-This document describes how to use the Ruby Version Manager, rvm to manage your Ruby installations on Mac 
-and Linux. We use tools like rvm and nvm to avoid using sudo to install the various gems and libraries. 
+This document describes how to use the Ruby Version Manager, rvm to manage your Ruby installations on Mac
+and Linux. We use tools like rvm and nvm to avoid using sudo to install the various gems and libraries.
 Do not use sudo.
 
 ## Install `rvm`
@@ -47,7 +47,7 @@ See https://rvm.io/rubies/upgrading
 
 ## Upgrading By Installing A New Ruby Version
 
-I ran into a situation where I did not rvm upgrade and instead installed the latest version.  This 
+I ran into a situation where I did not rvm upgrade and instead installed the latest version.  This
 is fine but you may need to install the bundler for your project.
 
 ```
@@ -58,3 +58,5 @@ $ gem install bundler			# install the bundler gem
 $ bundle install          # install all the gems that the project needs; notice they were not migrated over
 $ rake test								# try to run your tests to ensure the upgraded ruby version is playing nice
 ```
+
+# [< Home](README)

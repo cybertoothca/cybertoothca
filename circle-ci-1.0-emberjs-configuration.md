@@ -9,4 +9,4 @@ Enjoy.
 
 {% gist dc20da37914a927463fc9dbec6ef5c85 %}
 
-([https://gist.github.com/nadnoslen/dc20da37914a927463fc9dbec6ef5c85](https://gist.github.com/nadnoslen/dc20da37914a927463fc9dbec6ef5c85))
+# [< Home](README)
