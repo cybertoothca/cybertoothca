@@ -59,4 +59,4 @@ $ bundle install          # install all the gems that the project needs; notice 
 $ rake test								# try to run your tests to ensure the upgraded ruby version is playing nice
 ```
 
-# [< Home](README)
+# [< Home](/)

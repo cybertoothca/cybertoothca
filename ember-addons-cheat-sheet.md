@@ -204,4 +204,4 @@ export default Ember.Component.extend(Viewport, { ... });
 {% endraw %}
 ```
 
-# [< Home](README)
+# [< Home](/)

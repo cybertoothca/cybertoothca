@@ -23,4 +23,4 @@ $ nvm alias default 0.10.32     # set the default node to the installed 0.10.32 
 $ nvm --help                    # the help documents
 ```
 
-# [< Home](README)
+# [< Home](/)
