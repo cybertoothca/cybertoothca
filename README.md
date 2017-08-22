@@ -8,4 +8,4 @@
 
 [`nvm` (Node Version Manager) Cheat Sheet](nvm-cheat-sheet)
 
-[CircleCI-1.0 Configuration For EmberJs Addons](circle-ci-1.0-emberjs-configuration)
+[CircleCI-1.0 Configuration For Ember-2.13 Addons](circle-ci-1.0-emberjs-configuration)
