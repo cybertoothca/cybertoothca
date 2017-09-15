@@ -2,7 +2,9 @@
 
 ## Cheat Sheets
 
-[cybertooth.io EmberJs Addons Cheat Sheet](ember-addons-cheat-sheet)
+[cybertooth.io EmberJs Add-Ons Cheat Sheet](ember-addons-cheat-sheet)
+
+[EmberJs Testing Cheat Sheet](emberjs-testing-cheat-sheet)
 
 [`rvm` (Ruby Version Manager) Cheat Sheet](rvm-cheat-sheet)
 

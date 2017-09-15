@@ -1,4 +1,4 @@
-# cybertooth.io EmberJs Addons
+# cybertooth.io EmberJs Add-Ons
 
 ## [ember-cli-bootstrap3-carousel](http://ember-cli-bootstrap3-carousel.cybertooth.io)
 
