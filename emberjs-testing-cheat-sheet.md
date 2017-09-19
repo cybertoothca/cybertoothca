@@ -1,6 +1,6 @@
 # EmberJS Testing Cheat Sheet
 
-# Skipping Tests
+## Skipping Tests
 
 ```js
 // ...
@@ -14,7 +14,7 @@ skip('when some test needs to be skipped', function(assert) {
 })
 ```
 
-# Freezing Dates & Time
+## Freezing Dates & Time
 
 ```js
 // import the sinon module
