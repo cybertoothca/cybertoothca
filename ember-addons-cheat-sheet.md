@@ -109,7 +109,7 @@ export default Ember.Component.extend(Viewport, { ... });
 {% endraw %}
 ```
 
-## ember-cli-bootstrap3-tooltip
+## [ember-cli-bootstrap3-tooltip](http://ember-cli-bootstrap3-tooltip.cybertooth.io)
 
 ### `twbs-abbr` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-abbr-titlesome-tooltip-value))
 
