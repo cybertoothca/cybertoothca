@@ -21,49 +21,6 @@
 {% endraw %}
 ```
 
-## [ember-cli-bootstrap3-forms](http://ember-data-bootstrap3-forms.cybertooth.io/)
-
-### `twbs-errors-alert` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
-
-```hbs
-{% raw %}
-{{twbs-errors-alert class="alert-danger" model=model}}
-{% endraw %}
-```
-
-### `twbs-form` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form))
-
-```hbs
-{% raw %}
-{{#twbs-form
-    submit=(route-action "saveModel" model)
-    reset=(route-action "rollbackModel" model)
-}}
-  {{!-- your form-groups and inputs go here --}}
-  <div class="form-group text-right">
-    <button class="btn btn-primary" type="submit">
-      Clicking This SUBMIT Button Triggers Form's Submit Action
-    </button>
-    <button class="btn btn-default" type="reset">
-      Clicking This RESET Button Triggers Form's Reset Action
-    </button>
-  </div>
-{{/twbs-form}}
-{% endraw %}
-```
-
-### `twbs-form-group` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form-group))
-
-```hbs
-{% raw %}
-{{#twbs-form-group fieldErrors=model.errors.firstName}}
-  <label for="...">...</label>
-  {{input class="form-control" id="..." type="..." value=model.firstName}}
-  <p class="help-block">...</p>
-{{/twbs-form-group}}
-{% endraw %}
-```
-
 ## [ember-cli-bootstrap3-grid](https://github.com/cybertoothca/ember-cli-bootstrap3-grid)
 
 ### `twbs-clearfix` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-grid/blob/master/README.md#twbs-clearfix))
@@ -201,6 +158,49 @@ export default Ember.Component.extend(Viewport, { ... });
 ```hbs
 {% raw %}
 {{textarea-autosize classNames="form-control" rows=4}}
+{% endraw %}
+```
+
+## [ember-data-bootstrap3-forms](http://ember-data-bootstrap3-forms.cybertooth.io/)
+
+### `twbs-errors-alert` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
+
+```hbs
+{% raw %}
+{{twbs-errors-alert class="alert-danger" model=model}}
+{% endraw %}
+```
+
+### `twbs-form` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form))
+
+```hbs
+{% raw %}
+{{#twbs-form
+    submit=(route-action "saveModel" model)
+    reset=(route-action "rollbackModel" model)
+}}
+  {{!-- your form-groups and inputs go here --}}
+  <div class="form-group text-right">
+    <button class="btn btn-primary" type="submit">
+      Clicking This SUBMIT Button Triggers Form's Submit Action
+    </button>
+    <button class="btn btn-default" type="reset">
+      Clicking This RESET Button Triggers Form's Reset Action
+    </button>
+  </div>
+{{/twbs-form}}
+{% endraw %}
+```
+
+### `twbs-form-group` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form-group))
+
+```hbs
+{% raw %}
+{{#twbs-form-group fieldErrors=model.errors.firstName}}
+  <label for="...">...</label>
+  {{input class="form-control" id="..." type="..." value=model.firstName}}
+  <p class="help-block">...</p>
+{{/twbs-form-group}}
 {% endraw %}
 ```
 
