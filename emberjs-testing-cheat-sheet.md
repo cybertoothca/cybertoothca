@@ -14,6 +14,28 @@ skip('when some test needs to be skipped', function(assert) {
 })
 ```
 
+## Trimming Carriage Returns And Whitespace In Assertions
+
+```js
+// ...
+assert.equal(this.$('.some-element').text().trim(), 'Some Expected Value');
+// ...
+```
+
+...will does not trim out whitespace from carriage returns which is really easy
+to produce if you format your handlebars pleasantly.
+
+The fix: use JQuery's `$.trim(...)` function.  The above changes to:
+
+```js
+// for completeness, import Ember in your test
+// ...
+import Ember from 'ember';
+// ...
+assert.equal(Ember.$.trim(this.$('.some-element').text()), 'Some Expected Value');
+// ...
+```
+
 ## Freezing Dates & Time
 
 ```js
