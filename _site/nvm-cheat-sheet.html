@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>NVM Cheat Sheet | cybertoothca.github.io</title>
+<meta property="og:title" content="NVM Cheat Sheet" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The cybertooth.io website." />
+<meta property="og:description" content="The cybertooth.io website." />
+<link rel="canonical" href="http://localhost:4000/nvm-cheat-sheet.html" />
+<meta property="og:url" content="http://localhost:4000/nvm-cheat-sheet.html" />
+<meta property="og:site_name" content="cybertoothca.github.io" />
+<script type="application/ld+json">
+{"name":null,"description":"The cybertooth.io website.","author":null,"@type":"WebPage","url":"http://localhost:4000/nvm-cheat-sheet.html","publisher":null,"image":null,"headline":"NVM Cheat Sheet","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link href="/assets/css/style.css?v=5e44717e12a2014c4a78353506b34fff1119ef17" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://localhost:4000/">cybertooth.io</a>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section>
+      <div class="container">
+        <h1 id="nvm-cheat-sheet">NVM Cheat Sheet</h1>
+<hr />
+
+<p>Instructions for installing the Node Version Manager on Mac or Ubuntu. The nvm tool can be
+used to choose a specific version of NodeJs/npm.</p>
+
+<h2 id="install-nvm">Install <code class="highlighter-rouge">nvm</code></h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+</code></pre>
+</div>
+<p>See https://github.com/creationix/nvm#install-script.</p>
+
+<h2 id="tips-and-tricks">Tips And Tricks</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ nvm ls-remote                 # lists all of the available versions of NodeJs &amp; iojs
+$ nvm ls                        # list locally installed version
+$ nvm install 0.12.3            # install the version 0.12.3 (see ls-remote for available options)
+$ nvm use 0.12.3                # switch to and use the installed 0.12.3 version
+$ nvm which 0.12.2              # the path to the installed node version
+$ nvm current                   # what is the current installed nvm version
+$ nvm alias default 0.10.32     # set the default node to the installed 0.10.32 version
+$ nvm --help                    # the help documents
+</code></pre>
+</div>
+
+      </div>
+    </section>
+    <script src="/assets/javascript/anchor-js/anchor.min.js"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

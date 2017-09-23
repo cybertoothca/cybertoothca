@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>cybertooth.io EmberJs Add-Ons | cybertoothca.github.io</title>
+<meta property="og:title" content="cybertooth.io EmberJs Add-Ons" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The cybertooth.io website." />
+<meta property="og:description" content="The cybertooth.io website." />
+<link rel="canonical" href="http://localhost:4000/ember-addons-cheat-sheet.html" />
+<meta property="og:url" content="http://localhost:4000/ember-addons-cheat-sheet.html" />
+<meta property="og:site_name" content="cybertoothca.github.io" />
+<script type="application/ld+json">
+{"name":null,"description":"The cybertooth.io website.","author":null,"@type":"WebPage","url":"http://localhost:4000/ember-addons-cheat-sheet.html","publisher":null,"image":null,"headline":"cybertooth.io EmberJs Add-Ons","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link href="/assets/css/style.css?v=5e44717e12a2014c4a78353506b34fff1119ef17" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://localhost:4000/">cybertooth.io</a>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section>
+      <div class="container">
+        <h1 id="cybertoothio-emberjs-add-ons">cybertooth.io EmberJs Add-Ons</h1>
+<hr />
+
+<h2 id="ember-cli-bootstrap3-carousel"><a href="http://ember-cli-bootstrap3-carousel.cybertooth.io">ember-cli-bootstrap3-carousel</a></h2>
+
+<h3 id="twbs-carousel-component-docs"><code class="highlighter-rouge">twbs-carousel</code> Component (<a href="https://github.com/cybertoothca/ember-cli-bootstrap3-carousel#components">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{#</span><span class="nn">twbs-carousel</span> <span class="nv">as</span> <span class="err">|</span><span class="nv">carousel</span><span class="err">|</span><span class="k">}}</span>
+  <span class="k">{{#</span><span class="nn">carousel</span><span class="p">.</span><span class="nv">slide</span> <span class="nv">classNames</span><span class="o">=</span><span class="s2">"active"</span> <span class="nv">as</span> <span class="err">|</span><span class="nv">slide</span><span class="err">|</span><span class="k">}}</span>
+    <span class="k">{{</span><span class="nv">slide</span><span class="p">.</span><span class="nv">img</span> <span class="nv">src</span><span class="o">=</span><span class="s2">"https://dummyimage.com/1600x900/f7d3a0/333.jpg&amp;text=Slide+1"</span> <span class="nv">alt</span><span class="o">=</span><span class="s2">"A slide image."</span><span class="k">}}</span>
+  <span class="k">{{/</span><span class="nn">carousel</span><span class="p">.</span><span class="nv">slide</span><span class="k">}}</span>
+  <span class="k">{{#</span><span class="nn">carousel</span><span class="p">.</span><span class="nv">slide</span> <span class="nv">as</span> <span class="err">|</span><span class="nv">slide</span><span class="err">|</span><span class="k">}}</span>
+    <span class="k">{{</span><span class="nv">slide</span><span class="p">.</span><span class="nv">img</span> <span class="nv">lazy</span><span class="o">=</span><span class="s2">"https://dummyimage.com/1600x900/f7d3a0/333.jpg&amp;text=Slide+2"</span> <span class="nv">alt</span><span class="o">=</span><span class="s2">"A slide image."</span><span class="k">}}</span>
+  <span class="k">{{/</span><span class="nn">carousel</span><span class="p">.</span><span class="nv">slide</span><span class="k">}}</span>
+  ...
+  <span class="k">{{#</span><span class="nn">carousel</span><span class="p">.</span><span class="nv">slide</span> <span class="nv">as</span> <span class="err">|</span><span class="nv">slide</span><span class="err">|</span><span class="k">}}</span>
+    <span class="k">{{</span><span class="nv">slide</span><span class="p">.</span><span class="nv">img</span> <span class="nv">lazy</span><span class="o">=</span><span class="s2">"https://dummyimage.com/1600x900/f7d3a0/333.jpg&amp;text=Slide+5"</span> <span class="nv">alt</span><span class="o">=</span><span class="s2">"A slide image."</span><span class="k">}}</span>
+  <span class="k">{{/</span><span class="nn">carousel</span><span class="p">.</span><span class="nv">slide</span><span class="k">}}</span>
+<span class="k">{{/</span><span class="nn">twbs-carousel</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h2 id="ember-cli-bootstrap3-grid"><a href="https://github.com/cybertoothca/ember-cli-bootstrap3-grid">ember-cli-bootstrap3-grid</a></h2>
+
+<h3 id="twbs-clearfix-component-docs"><code class="highlighter-rouge">twbs-clearfix</code> Component (<a href="https://github.com/cybertoothca/ember-cli-bootstrap3-grid/blob/master/README.md#twbs-clearfix">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{</span><span class="nv">twbs-clearfix</span> <span class="nv">columnCount</span><span class="o">=</span><span class="nv">3</span> <span class="nv">index</span><span class="o">=</span><span class="nv">index</span> <span class="nv">visible-sm</span><span class="o">=</span><span class="kc">true</span> <span class="nv">visible-md</span><span class="o">=</span><span class="kc">true</span> <span class="nv">visible-lg</span><span class="o">=</span><span class="kc">true</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{</span><span class="nv">twbs-clearfix</span> <span class="nv">columnCount</span><span class="o">=</span><span class="nv">3</span> <span class="nv">index</span><span class="o">=</span><span class="nv">index</span> <span class="nv">visible-all</span><span class="o">=</span><span class="kc">true</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h3 id="viewport-mixin-docs"><code class="highlighter-rouge">Viewport</code> Mixin (<a href="https://github.com/cybertoothca/ember-cli-bootstrap3-grid/blob/master/README.md#viewport">docs</a>)</h3>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kr">import</span> <span class="nx">Viewport</span> <span class="nx">from</span> <span class="s1">'ember-cli-bootstrap3-grid/mixins/viewport'</span><span class="p">;</span>
+<span class="c1">// ... then mix it into your component</span>
+<span class="kr">export</span> <span class="k">default</span> <span class="nx">Ember</span><span class="p">.</span><span class="nx">Component</span><span class="p">.</span><span class="nx">extend</span><span class="p">(</span><span class="nx">Viewport</span><span class="p">,</span> <span class="p">{</span> <span class="p">...</span> <span class="p">});</span>
+</code></pre>
+</div>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="c">{{!-- then in your template use the computed functions --}}</span>
+<span class="k">{{#if</span> <span class="nv">xs</span><span class="err">?</span><span class="k">}}</span> Extra Small <span class="k">{{else}}</span> SM/MD/LG <span class="k">{{/if}}</span>
+</code></pre>
+</div>
+
+<h2 id="ember-cli-bootstrap3-popover"><a href="http://ember-cli-bootstrap3-popover.cybertooth.io">ember-cli-bootstrap3-popover</a></h2>
+
+<h3 id="twbs-popover-component-docs"><code class="highlighter-rouge">twbs-popover</code> Component (<a href="https://github.com/cybertoothca/ember-cli-bootstrap3-popover#twbs-popover">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{#</span><span class="nn">twbs-popover</span> <span class="nv">content</span><span class="o">=</span><span class="s2">"Click again to hide."</span> <span class="nv">as</span> <span class="err">|</span><span class="nv">popover</span><span class="err">|</span><span class="k">}}</span>
+  <span class="k">{{#</span><span class="nn">popover</span><span class="p">.</span><span class="nv">trigger</span><span class="k">}}</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"javascript:void(0)"</span><span class="nt">&gt;</span>Click this anchor.<span class="nt">&lt;/a&gt;</span>
+  <span class="k">{{/</span><span class="nn">popover</span><span class="p">.</span><span class="nv">trigger</span><span class="k">}}</span>
+<span class="k">{{/</span><span class="nn">twbs-popover</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h2 id="ember-cli-bootstrap3-tooltip"><a href="http://ember-cli-bootstrap3-tooltip.cybertooth.io">ember-cli-bootstrap3-tooltip</a></h2>
+
+<h3 id="twbs-abbr-component-docs"><code class="highlighter-rouge">twbs-abbr</code> Component (<a href="https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-abbr-titlesome-tooltip-value">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{#</span><span class="nn">twbs-abbr</span> <span class="nv">title</span><span class="o">=</span><span class="s2">"Best Friends, Forever"</span><span class="k">}}</span>BFF<span class="k">{{/</span><span class="nn">twbs-abbr</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h3 id="twbs-cite-component-docs"><code class="highlighter-rouge">twbs-cite</code> Component (<a href="https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-cite-titlesome-tooltip-value">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;blockquote&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;footer&gt;</span>Someone famous in <span class="k">{{#</span><span class="nn">twbs-cite</span> <span class="nv">title</span><span class="o">=</span><span class="s2">"Source Title"</span><span class="k">}}</span>Source Title<span class="k">{{/</span><span class="nn">twbs-cite</span><span class="k">}}</span><span class="nt">&lt;/footer&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span>
+</code></pre>
+</div>
+
+<h3 id="twbs-span-component-docs"><code class="highlighter-rouge">twbs-span</code> Component (<a href="https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-span-titlesome-tooltip-value">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{#</span><span class="nn">twbs-span</span> <span class="nv">title</span><span class="o">=</span><span class="s2">"Some sort of tooltip in a span"</span><span class="k">}}</span>Hover Over This<span class="k">{{/</span><span class="nn">twbs-span</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h2 id="ember-cli-date-textbox"><a href="http://ember-cli-date-textbox.cybertooth.io">ember-cli-date-textbox</a></h2>
+
+<h3 id="input-date-component-docs"><code class="highlighter-rouge">input-date</code> Component (<a href="https://github.com/cybertoothca/ember-cli-date-textbox#input-date">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{</span><span class="nv">input-date</span> <span class="nv">autofocus</span><span class="o">=</span><span class="kc">true</span> <span class="nv">classNames</span><span class="o">=</span><span class="s2">"form-control"</span> <span class="nv">date</span><span class="o">=</span><span class="nv">model</span><span class="p">.</span><span class="nv">createdAt</span> <span class="nv">displayFormat</span><span class="o">=</span><span class="s2">"LLLL"</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h3 id="input-iso8601-component-docs"><code class="highlighter-rouge">input-iso8601</code> Component (<a href="https://github.com/cybertoothca/ember-cli-date-textbox#input-iso8601">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{</span><span class="nv">input-iso8601</span> <span class="nv">classNames</span><span class="o">=</span><span class="s2">"form-control"</span> <span class="nv">displayFormat</span><span class="o">=</span><span class="s2">"llll"</span> <span class="nv">iso8601</span><span class="o">=</span><span class="s2">"2017-07-01T00:00:00.000Z"</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h2 id="ember-cli-marked-down"><a href="https://github.com/cybertoothca/ember-cli-marked-down">ember-cli-marked-down</a></h2>
+
+<h3 id="marked-down-helper-docs"><code class="highlighter-rouge">marked-down</code> Helper (<a href="https://github.com/cybertoothca/ember-cli-marked-down#marked-down-some-__markdown__-text">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{</span><span class="nv">marked-down</span> <span class="s2">"Some ~~struck~~ markdown text"</span> <span class="nv">strikethrough</span><span class="o">=</span><span class="kc">true</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h3 id="set-links-target-component-docs"><code class="highlighter-rouge">set-links-target</code> Component (<a href="https://github.com/cybertoothca/ember-cli-marked-down#set-links-target">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{#</span><span class="nn">set-links-target</span> <span class="nv">excludeSelfLinks</span><span class="err">?</span><span class="o">=</span><span class="kc">true</span> <span class="nv">targetValue</span><span class="o">=</span><span class="s2">"_blank"</span><span class="k">}}</span>
+  ...
+<span class="k">{{/</span><span class="nn">set-links-target</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h2 id="ember-cli-text-support-mixins"><a href="http://ember-cli-text-support-mixins.cybertooth.io">ember-cli-text-support-mixins</a></h2>
+
+<h3 id="input-text-component-docs"><code class="highlighter-rouge">input-text</code> Component (<a href="https://github.com/cybertoothca/ember-cli-text-support-mixins#input-text">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{</span><span class="nv">input-text</span> <span class="nv">autofocus</span><span class="o">=</span><span class="kc">true</span> <span class="nv">class</span><span class="o">=</span><span class="s2">"form-control"</span> <span class="nv">escapeKeyClears</span><span class="err">?</span><span class="o">=</span><span class="kc">true</span> <span class="nv">focusSelectsText</span><span class="err">?</span><span class="o">=</span><span class="kc">true</span> <span class="nv">value</span><span class="o">=</span><span class="nv">model</span><span class="p">.</span><span class="nv">firstName</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h3 id="text-area-component-docs"><code class="highlighter-rouge">text-area</code> Component (<a href="https://github.com/cybertoothca/ember-cli-text-support-mixins#text-area">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{</span><span class="nv">text-area</span> <span class="nv">class</span><span class="o">=</span><span class="s2">"form-control"</span> <span class="nv">escapeKeyClears</span><span class="err">?</span><span class="o">=</span><span class="kc">true</span> <span class="nv">focusSelectsText</span><span class="err">?</span><span class="o">=</span><span class="kc">true</span> <span class="nv">ctrlEnterSubmitsForm</span><span class="err">?</span><span class="o">=</span><span class="kc">true</span> <span class="nv">value</span><span class="o">=</span><span class="nv">model</span><span class="p">.</span><span class="nv">notes</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h2 id="ember-cli-textarea-autosize"><a href="http://ember-cli-textarea-autosize.cybertooth.io">ember-cli-textarea-autosize</a></h2>
+
+<h3 id="textarea-autosize-component-docs"><code class="highlighter-rouge">textarea-autosize</code> Component (<a href="https://github.com/cybertoothca/ember-cli-textarea-autosize#usage">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{</span><span class="nv">textarea-autosize</span> <span class="nv">classNames</span><span class="o">=</span><span class="s2">"form-control"</span> <span class="nv">rows</span><span class="o">=</span><span class="nv">4</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h2 id="ember-data-bootstrap3-forms"><a href="http://ember-data-bootstrap3-forms.cybertooth.io/">ember-data-bootstrap3-forms</a></h2>
+
+<h3 id="twbs-errors-alert-component-docs"><code class="highlighter-rouge">twbs-errors-alert</code> Component (<a href="https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{</span><span class="nv">twbs-errors-alert</span> <span class="nv">class</span><span class="o">=</span><span class="s2">"alert-danger"</span> <span class="nv">model</span><span class="o">=</span><span class="nv">model</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h3 id="twbs-form-component-docs"><code class="highlighter-rouge">twbs-form</code> Component (<a href="https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{#</span><span class="nn">twbs-form</span>
+    <span class="nv">submit</span><span class="o">=</span><span class="err">(</span><span class="nv">route-action</span> <span class="s2">"saveModel"</span> <span class="nv">model</span><span class="err">)</span>
+    <span class="nv">reset</span><span class="o">=</span><span class="err">(</span><span class="nv">route-action</span> <span class="s2">"rollbackModel"</span> <span class="nv">model</span><span class="err">)</span>
+<span class="k">}}</span>
+  <span class="c">{{!-- your form-groups and inputs go here --}}</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group text-right"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">type=</span><span class="s">"submit"</span><span class="nt">&gt;</span>
+      Clicking This SUBMIT Button Triggers Form's Submit Action
+    <span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default"</span> <span class="na">type=</span><span class="s">"reset"</span><span class="nt">&gt;</span>
+      Clicking This RESET Button Triggers Form's Reset Action
+    <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="k">{{/</span><span class="nn">twbs-form</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+<h3 id="twbs-form-group-component-docs"><code class="highlighter-rouge">twbs-form-group</code> Component (<a href="https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-form-group">docs</a>)</h3>
+
+<div class="language-hbs highlighter-rouge"><pre class="highlight"><code><span class="k">{{#</span><span class="nn">twbs-form-group</span> <span class="nv">fieldErrors</span><span class="o">=</span><span class="nv">model</span><span class="p">.</span><span class="nv">errors</span><span class="p">.</span><span class="nv">firstName</span><span class="k">}}</span>
+  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"..."</span><span class="nt">&gt;</span>...<span class="nt">&lt;/label&gt;</span>
+  <span class="k">{{</span><span class="nv">input</span> <span class="nv">class</span><span class="o">=</span><span class="s2">"form-control"</span> <span class="nv">id</span><span class="o">=</span><span class="s2">"..."</span> <span class="nv">type</span><span class="o">=</span><span class="s2">"..."</span> <span class="nv">value</span><span class="o">=</span><span class="nv">model</span><span class="p">.</span><span class="nv">firstName</span><span class="k">}}</span>
+  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"help-block"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="k">{{/</span><span class="nn">twbs-form-group</span><span class="k">}}</span>
+</code></pre>
+</div>
+
+      </div>
+    </section>
+    <script src="/assets/javascript/anchor-js/anchor.min.js"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
