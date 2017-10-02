@@ -3,6 +3,8 @@
 
 [cybertooth.io EmberJs Add-Ons Cheat Sheet](ember-addons-cheat-sheet)
 
+[EmberJs Add-On Cheat Sheet](emberjs-add-on-cheat-sheet)
+
 [EmberJs Testing Cheat Sheet](emberjs-testing-cheat-sheet)
 
 [`rvm` (Ruby Version Manager) Cheat Sheet](rvm-cheat-sheet)
@@ -11,7 +13,6 @@
 
 # How To Documents
 ----
-
 
 [CircleCI-1.0 Configuration For Ember-2.13 Addons](circle-ci-1.0-emberjs-configuration) -
 _reference guide for using CircleCI-1.0's parallelism when building an add-on

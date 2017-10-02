@@ -3,7 +3,7 @@
 
 ## Skipping Tests
 
-```js
+```javascript
 // ...
 import { skip } from 'qunit';
 
@@ -17,7 +17,7 @@ skip('when some test needs to be skipped', function(assert) {
 
 ## Trimming Carriage Returns And Whitespace In Assertions
 
-```js
+```javascript
 // ...
 assert.equal(this.$('.some-element').text().trim(), 'Some Expected Value');
 // ...
@@ -28,7 +28,7 @@ to produce if you format your handlebars pleasantly.
 
 The fix: use JQuery's `$.trim(...)` function.  The above changes to:
 
-```js
+```javascript
 // for completeness, import Ember in your test
 // ...
 import Ember from 'ember';
@@ -39,7 +39,12 @@ assert.equal(Ember.$.trim(this.$('.some-element').text()), 'Some Expected Value'
 
 ## Freezing Dates & Time
 
-```js
+```bash
+# install the ember-sinon module
+ember install ember-sinon
+```
+
+```javascript
 // import the sinon module
 import sinon from 'sinon';
 
