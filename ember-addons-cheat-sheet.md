@@ -45,7 +45,7 @@ export default Ember.Component.extend(Viewport, { ... });
 {{#if xs?}} Extra Small {{else}} SM/MD/LG {{/if}}
 {% endraw %} ```
 
-## [ember-cli-bootstrap3-popover](http://ember-cli-bootstrap3-popover.cybertooth.io)
+## [ember-cli-bootstrap3-popover](http://ember-cli-bootstrap3-popover.cybertooth.io) ![GitHub version](http://badge.fury.io/gh/cybertoothca%2Fember-cli-bootstrap3-popover.svg)
 
 ### `twbs-popover` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-popover#twbs-popover))
 
@@ -57,12 +57,18 @@ export default Ember.Component.extend(Viewport, { ... });
 {{/twbs-popover}}
 {% endraw %} ```
 
-## [ember-cli-bootstrap3-tooltip](http://ember-cli-bootstrap3-tooltip.cybertooth.io)
+## [ember-cli-bootstrap3-tooltip](http://ember-cli-bootstrap3-tooltip.cybertooth.io) ![GitHub version](http://badge.fury.io/gh/cybertoothca%2Fember-cli-bootstrap3-tooltip.svg)
 
 ### `twbs-abbr` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-abbr-titlesome-tooltip-value))
 
 ```hbs {% raw %}
 {{#twbs-abbr title="Best Friends, Forever"}}BFF{{/twbs-abbr}}
+{% endraw %} ```
+
+### `twbs-button` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-button-classbtn-default-titlesome-tooltip-value))
+
+```hbs {% raw %}
+{{#twbs-button class="btn-default" title="Some Tooltip"}}Some Button{{/twbs-button}}
 {% endraw %} ```
 
 ### `twbs-cite` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-cite-titlesome-tooltip-value))
@@ -74,13 +80,31 @@ export default Ember.Component.extend(Viewport, { ... });
 </blockquote>
 {% endraw %} ```
 
+### `twbs-i` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-i-titlesome-tooltip-value))
+
+```hbs {% raw %}
+{{twbs-i class="fa fa-github"
+  html?=true placement="right"
+  title="Github Icon:<br/><code>fa fa-github</code>"}}
+{% endraw %} ```
+
 ### `twbs-span` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-span-titlesome-tooltip-value))
 
 ```hbs {% raw %}
 {{#twbs-span title="Some sort of tooltip in a span"}}Hover Over This{{/twbs-span}}
 {% endraw %} ```
 
-## [ember-cli-date-textbox](http://ember-cli-date-textbox.cybertooth.io)
+### `twbs-time` Component ([docs](https://github.com/cybertoothca/ember-cli-bootstrap3-tooltip#twbs-time-datetime2001-09-11t040000000z-titlesome-tooltip-value))
+
+```hbs {% raw %}
+{{#twbs-time
+  datetime="2001-09-11T04:00:00.000Z" title="Some sort of time..."
+}}
+  Hover Over This
+{{/twbs-time}}
+{% endraw %} ```
+
+## [ember-cli-date-textbox](http://ember-cli-date-textbox.cybertooth.io) ![GitHub version](http://badge.fury.io/gh/cybertoothca%2Fember-cli-date-textbox.svg)
 
 ### `input-date` Component ([docs](https://github.com/cybertoothca/ember-cli-date-textbox#input-date))
 
@@ -94,7 +118,7 @@ export default Ember.Component.extend(Viewport, { ... });
 {{input-iso8601 classNames="form-control" displayFormat="llll" iso8601="2017-07-01T00:00:00.000Z"}}
 {% endraw %} ```
 
-## [ember-cli-marked-down](https://github.com/cybertoothca/ember-cli-marked-down)
+## [ember-cli-marked-down](https://github.com/cybertoothca/ember-cli-marked-down) ![GitHub version](http://badge.fury.io/gh/cybertoothca%2Fember-cli-marked-down.svg)
 
 ### `marked-down` Helper ([docs](https://github.com/cybertoothca/ember-cli-marked-down#marked-down-some-__markdown__-text))
 
@@ -110,7 +134,7 @@ export default Ember.Component.extend(Viewport, { ... });
 {{/set-links-target}}
 {% endraw %} ```
 
-## [ember-cli-text-support-mixins](http://ember-cli-text-support-mixins.cybertooth.io)
+## [ember-cli-text-support-mixins](http://ember-cli-text-support-mixins.cybertooth.io) ![GitHub version](http://badge.fury.io/gh/cybertoothca%2Fember-cli-text-field-mixins.svg)
 
 ### `input-text` Component ([docs](https://github.com/cybertoothca/ember-cli-text-support-mixins#input-text))
 
@@ -124,7 +148,7 @@ export default Ember.Component.extend(Viewport, { ... });
 {{text-area class="form-control" escapeKeyClears?=true focusSelectsText?=true ctrlEnterSubmitsForm?=true value=model.notes}}
 {% endraw %} ```
 
-## [ember-cli-textarea-autosize](http://ember-cli-textarea-autosize.cybertooth.io)
+## [ember-cli-textarea-autosize](http://ember-cli-textarea-autosize.cybertooth.io) ![GitHub version](http://badge.fury.io/gh/cybertoothca%2Fember-cli-textarea-autosize.svg)
 
 ### `textarea-autosize` Component ([docs](https://github.com/cybertoothca/ember-cli-textarea-autosize#usage))
 
@@ -132,7 +156,7 @@ export default Ember.Component.extend(Viewport, { ... });
 {{textarea-autosize classNames="form-control" rows=4}}
 {% endraw %} ```
 
-## [ember-data-bootstrap3-forms](http://ember-data-bootstrap3-forms.cybertooth.io/)
+## [ember-data-bootstrap3-forms](http://ember-data-bootstrap3-forms.cybertooth.io/) ![GitHub version](http://badge.fury.io/gh/cybertoothca%2Fember-data-bootstrap3-forms.svg)
 
 ### `twbs-errors-alert` Component ([docs](https://github.com/cybertoothca/ember-data-bootstrap3-forms#twbs-errors-alert))
 
