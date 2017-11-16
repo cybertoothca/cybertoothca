@@ -37,12 +37,14 @@ an add-on against multiple Ember versions._
 
 [WIKI: Rails API Server How To Documents & Best Practices](https://github.com/Perfect-Response/pr-api/wiki)
 <small class="text-muted">
-- _references for creating Models, Resources, Policiies, & Controllers
+-
+_references for creating Models, Resources, Policiies, & Controllers
 that can be consumed effortlessly by Ember Data._
 </small>
 
 [WIKI: Ember UI How To Documents And Best Practices](https://github.com/Perfect-Response/pr-ui/wiki)
 <small class="text-muted">
-- _references for creating Ember models, routes, and using various community
+-
+_references for creating Ember models, routes, and using various community
 add-ons._
 </small>
