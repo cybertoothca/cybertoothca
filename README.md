@@ -7,6 +7,8 @@
 
 [EmberJs Testing Cheat Sheet](emberjs-testing-cheat-sheet)
 
+[Rails Error Messages Cheat Sheet](rails_included_error_messages)
+
 [`rvm` (Ruby Version Manager) Cheat Sheet](rvm-cheat-sheet)
 
 [`nvm` (Node Version Manager) Cheat Sheet](nvm-cheat-sheet)
