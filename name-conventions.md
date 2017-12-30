@@ -5,7 +5,7 @@ project(s).
 
 ## Table Columns
 
-* `created_at` - when a record was created
+* `created_at` - when a record was created (`Rails default`)
 * `created_by` - the user reference that created a record
-* `updated_at` - when a record was updated
+* `updated_at` - when a record was updated (`Rails default`)
 * `updated_by` - the user reference that updated a record

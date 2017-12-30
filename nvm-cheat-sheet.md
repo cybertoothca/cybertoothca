@@ -1,5 +1,4 @@
 # NVM Cheat Sheet
-----
 
 Instructions for installing the Node Version Manager on Mac or Ubuntu. The nvm tool can be
 used to choose a specific version of NodeJs/npm.

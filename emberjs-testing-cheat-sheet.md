@@ -1,5 +1,4 @@
 # EmberJS Testing Cheat Sheet
-----
 
 ## Skipping Tests
 

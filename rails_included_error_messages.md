@@ -1,5 +1,4 @@
 # Rails Errors Cheat Sheet
-----
 
 Rails ships with a couple of locale resource files that can be
 used for most of your custom error messages needs.  Here's the

@@ -1,5 +1,4 @@
 # EmberJs Test In Headless (Chrome/Firefox)
-----
 
 Headless Chrome and Firefox now are available on most sane platforms.  
 You can take advantage of headless testing in your Ember-2x application

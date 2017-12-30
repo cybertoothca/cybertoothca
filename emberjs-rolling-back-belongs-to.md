@@ -1,5 +1,4 @@
 # EmberJs Rolling Back Belongs To
-----
 
 <div class="alert alert-info">
   <p>

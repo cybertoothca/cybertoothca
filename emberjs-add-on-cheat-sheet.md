@@ -1,5 +1,9 @@
 # EmberJs Add-On Cheat Sheet
 
+## Read This Blog
+
+[Ember Addon Secrets](http://emberup.co/ember-addon-secrets/)
+
 ## Blueprints
 
 The [Ember CLI API documentation for Blueprints](https://ember-cli.com/api/classes/Blueprint.html)

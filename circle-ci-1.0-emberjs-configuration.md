@@ -1,5 +1,4 @@
 # CircleCI-1.0 Configuration Example (Ember-2.13+)
-----
 
 I've not enjoyed my experiences with TravisCI; false positives and
 inconsistent build failures have plagued me. I moved over to CircleCI

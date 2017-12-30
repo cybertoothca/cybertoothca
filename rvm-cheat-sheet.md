@@ -1,5 +1,4 @@
 # RVM Cheat Sheet
-----
 
 This document describes how to use the Ruby Version Manager, rvm to manage your Ruby installations on Mac
 and Linux. We use tools like rvm and nvm to avoid using sudo to install the various gems and libraries.
