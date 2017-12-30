@@ -5,14 +5,14 @@ used to choose a specific version of NodeJs/npm.
 
 ## Install `nvm`
 
-```
+```bash
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 ```
 See https://github.com/creationix/nvm#install-script.
 
 ## Tips And Tricks
 
-```
+```bash
 $ nvm ls-remote                 # lists all of the available versions of NodeJs & iojs
 $ nvm ls                        # list locally installed version
 $ nvm install 0.12.3            # install the version 0.12.3 (see ls-remote for available options)

@@ -6,7 +6,7 @@ Do not use sudo.
 
 ## Install `rvm`
 
-```
+```bash
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 $ curl -sSL https://get.rvm.io | bash -s stable --ruby
 ```
@@ -15,7 +15,7 @@ See https://rvm.io/rvm/install.
 
 ## Tips And Tricks
 
-```
+```bash
 $ rvm list known					# lists all of the known ruby packages
 $ rvm install 2.1					# install the latest version of ruby-2.1.x
 $ rvm use 2.1						# use ruby-2.1.x
@@ -30,7 +30,7 @@ See https://rvm.io/rvm/install#try-out-your-new-rvm-installation.
 
 You should upgrade rvm regularly seeing as you probably don't use the tool that often.
 
-```
+```bash
 $ rvm get stable
 ```
 
@@ -38,7 +38,7 @@ See https://rvm.io/rvm/upgrading
 
 ## Upgrading Ruby With `rvm`
 
-```
+```bash
 $ rvm upgrade 2.1.1 2.1.2			# upgrades ruby 2.1.1 to 2.1.2, migrate gemsets, wrappers, aliases and environment files
 $ rvm use 2.1.2 --default			# when upgrading you may want to use the new version as your default; not sure that the `rvm upgrade ...` command does this part
 ```
@@ -50,7 +50,7 @@ See https://rvm.io/rubies/upgrading
 I ran into a situation where I did not rvm upgrade and instead installed the latest version.  This
 is fine but you may need to install the bundler for your project.
 
-```
+```bash
 $ cd ~/yourRailsProject
 $ rvm install 2.2.2
 $ rvm use 2.2.2 --default
