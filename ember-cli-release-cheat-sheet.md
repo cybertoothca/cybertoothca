@@ -24,6 +24,8 @@ commands during your development and acceptance processes will save you from
 executing multiple commands to do the exact same thing.
 
 ```bash
+$ ember release --premajor 'rc' # 0.0.0 -> 1.0.0-rc.1
+$ ember release # 1.0.0-rc.1 -> 1.0.0
 $ ember release --prerelease='rc' # 1.0.0 -> 1.0.1-rc.0
 $ ember release --prerelease=true # 1.0.1-rc.0 -> 1.0.1-rc.1
 $ ember release # 1.0.1-rc.1 -> 1.0.1
@@ -32,6 +34,8 @@ $ ember release # 1.0.1-rc.1 -> 1.0.1
 #### Short-Hand Form (same results as above)
 
 ```bash
+$ ember release --premajor 'rc' # 0.0.0 -> 1.0.0-rc.1
+$ ember release # 1.0.0-rc.1 -> 1.0.0
 $ ember release -e 'rc' # 1.0.0 -> 1.0.1-rc.0
 $ ember release -e true # 1.0.1-rc.0 -> 1.0.1-rc.1
 $ ember release # 1.0.1-rc.1 -> 1.0.1
